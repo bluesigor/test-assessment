@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.error__msg {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  font-family: fantasy;
+  color: crimson;
+}
+
+.spinner {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+}

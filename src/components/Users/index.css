@@ -1,0 +1,61 @@
+.users-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.user-entity {
+        padding: 20px 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+}
+
+.user__avatar {
+        max-width: 100px;
+        border-radius: 50%;
+}
+
+.user-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.user-content-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.user-content-head__title {
+        font-family: fantasy;
+        font-weight: 600;
+        font-size: 22px;
+}
+
+.user-content-head-wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 3px;
+}
+
+.user-content-head__link {
+        font-family: fantasy;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        color: rgb(111, 139, 142);
+}
+
+.user-content__bio {
+        font-family: fantasy;
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(130, 173, 184);
+        text-shadow: 2px 1px 1px rgba(176, 224, 230, 0.35);
+
+}
