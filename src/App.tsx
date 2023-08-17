@@ -33,8 +33,6 @@ function App() {
     }
   };
 
-  console.log(error);
-
   return (
     <>
       <Search username={username} setUsername={setUsername} getUser={getUser} />
